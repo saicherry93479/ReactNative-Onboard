@@ -21,7 +21,7 @@ const Onboard = ({navigation}) => {
     setCurrentPage(current);
   };
   const navigateHome = () => {
-    navigation.navigate('Home');
+    navigation.navigate('onBoardHome');
   };
   const renderItem = ({item}) => (
     <View style={[styles.page]}>
